@@ -19,9 +19,12 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(number){
-  var message = []
+  var message = [];
+  let count = 0;
   
   do{
     message.push("I love the Beatles!");
-  } while(number < 15)
+  } while(++number < 15)
+  
+  return message;
 }
